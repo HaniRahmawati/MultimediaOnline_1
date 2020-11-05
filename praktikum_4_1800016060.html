@@ -20,8 +20,8 @@ function startGame() {
     myApp.start();
     for(var i=1; i<4; i++)
     {
-      sprites[i]=new sprite('assets/obj_'+i+'.png',100,i*100);
-      targets[i]=new sprite('assets/target_'+i+'.png',500,i*100);
+      sprites[i]=new sprite('obj_'+i+'.png',100,i*100);
+      targets[i]=new sprite('target_'+i+'.png',500,i*100);
       dragable(sprites[i],targets[i]);
     }
   }
